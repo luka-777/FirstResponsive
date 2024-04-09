@@ -1,0 +1,46 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+}
+
+
+.txt {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 50px;
+    margin-top: 25px;
+}
+
+.txt p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: gray;
+}
+
+.done {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #21092f;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.done button {
+    background-color: #21092f;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}

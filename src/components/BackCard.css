@@ -1,0 +1,46 @@
+.back {
+    width: 410px;
+    height: 220px;
+    background-image: url(./images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 280px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  @media (width < 1100px) {
+    .back {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      margin-left: 0;
+    }
+  
+    .back p {
+      padding-right: 50px;
+      text-align: end;
+      font-weight: 700;
+      padding-top: 0px;
+    }
+  }
+  
+  @media (min-width: 1101px) {
+    .back p {
+      text-align: end;
+      padding-right: 50px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      padding-top: 97px;
+    }
+  }
+  
+  .Bdesign {
+    font-weight: 100;
+    color: rgb(143, 141, 141);
+  }
+  
